@@ -1,0 +1,90 @@
+.videobar{
+    width: 80%;
+    height: 120vh;
+    align-items: center;
+    margin: 50px;
+    margin-top: 150px;
+    margin-left: 170px;
+    justify-content: center;
+    display: grid;
+}
+
+.first{
+    width: 880px;
+    height: 100vh;
+    position: relative;    
+    background-color: chartreuse;
+}
+
+.first h3{
+    z-index: 20;
+    margin-top: 100px;
+}
+
+.addVideo{
+    z-index: 1;
+    width: 880px;
+    height: 50vh;
+    align-items: center;
+    position: relative;
+    border-radius: 15px;
+
+}
+
+.videoSection{
+    position: relative;
+    width: 900px;
+    border-radius: 20px;
+    height: 50vh;
+    margin: 10px 20px;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(16, 17, 19);
+}
+
+.main__video{
+    width: 650px;
+    height: 40vh;
+    display: inline;
+    align-items: center;
+    margin-right: 20px;
+    background-color:black;
+}
+
+.video__collect__f{
+    list-style: none;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(31, 21, 8);
+}
+
+
+.video__collect__s{
+    height: 100px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(172, 120, 42);
+}
+
+.main__videoItem{
+    width: 220px;
+    border-radius: 20px;
+    height: 50vh;
+    align-items: center;
+    margin-left: 10px;
+    background-color: red;
+}
+
+.videoCollectionItem{
+    width: 80px;
+    height: 40px;
+    max-width: 5px;
+}
